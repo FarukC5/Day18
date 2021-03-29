@@ -1,0 +1,206 @@
+.box img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+}
+
+#boxes .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 30%;
+  padding: 2%;
+}
+
+.box p {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(44, 44, 44);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(231, 84, 16);
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+footer p {
+  color: white;
+}
+
+/*  zadnji red iznad */
+
+/* POCETAK SREDNJEG REDA DRUGA SEKCIJA*/
+* {
+  border: 0px #ccc solid;
+  padding: 0.1px;
+}
+
+#newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkslategray; /* SREDINA*/
+ padding: 1%;
+}
+
+#newsletter .container {
+  display: flex;
+  width: 88%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* pomjerneno desno skroz*/
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  /*background-color: violet; */
+}
+
+.button_1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  /* display: flex; */
+  padding: 10px;
+  color: white;
+  background-color: rgb(231, 84, 16); /* SUBSCRIBE BUTTON*/
+  border-radius: 2px;
+  direction: none;
+  border: 0px;
+}
+
+.container input {
+  padding: 10px;
+  display: flex;
+  justify-items: flex-end;
+  width: 70%;
+  border: 0px;
+}
+
+.container h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+/* SREDNJI RED SA LOGOOM PRVA SEKCIJA*/
+
+#showcase {
+  background-image: url(../img/gigi-logo.png);
+  filter: grayscale(100%);
+  opacity: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding: 8%;
+}
+
+#showcase .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 110%;
+}
+
+#showcase h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+
+#showcase p {
+  color: white;
+  width: 90%;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PRVI RED   */
+body {
+  margin: 0px;
+
+}
+
+header {
+  background-color: darkslategray;
+  border-bottom-width: 5px;
+  border-bottom-color: rgb(252, 108, 25);
+  padding-bottom: 5px;
+}
+
+header .container {
+  display: flex;
+  width: 100%;
+  border-bottom: 0px;
+}
+
+#branding {
+  width: 100%;
+}
+
+/*    h1 tekst arena LIJEVO*/
+#branding h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  font: lighter;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+  align-items: right;
+}
+/* GIGI SPAN*/
+span {
+  color: rgb(252, 108, 25); 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 22%;
+}
+
+/* NAVIGACIJSKA LISTA SA HOME ABOUT I TRACK desno */
+nav {
+  background-color: darkslategrey;
+  width: 100%;
+  display: flex;
+}
+
+/* 3 dugmeta */
+nav ul {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* pomjerneno desno skroz*/
+  align-items: center;
+}
+
+nav a {
+  display: flex;
+  width: 15%; /*  sirina boxeva home, about*/
+  /*  background-color: lawngreen; */
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.curent {
+  color: rgb(252, 108, 25);
+}
